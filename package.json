@@ -1,0 +1,12 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day-1": "npx ts-node day-1/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

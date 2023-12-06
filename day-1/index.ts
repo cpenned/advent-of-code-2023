@@ -1,7 +1,7 @@
 import fs from "fs";
 
 function runPartOne() {
-  const input = fs.readFileSync("./data.txt", "utf-8");
+  const input = fs.readFileSync("day-1/data.txt", "utf-8");
 
   const data = input.split("\n").reduce((acc, x) => {
     const currentArray = x.replace(/[a-zA-Z]/g, "").split("") as string[];
