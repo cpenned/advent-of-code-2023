@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "day-1": "npx ts-node day-1/index.ts",
-    "day-2": "npx ts-node day-1/index.ts"
+    "day-2": "npx ts-node day-2/index.ts"
   },
   "keywords": [],
   "author": "",
