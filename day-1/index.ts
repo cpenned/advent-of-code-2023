@@ -80,7 +80,9 @@ function runPartTwo() {
   return data;
 }
 
-const partOneAnswer = runPartOne();
-console.log("🚀 ~ partOneAnswer:", partOneAnswer);
-const partTwoAnswer = runPartTwo();
-console.log("🚀 ~ partTwoAnswer:", partTwoAnswer);
+(function run() {
+  console.log({
+    "🚀 ~ partOneResult": runPartOne(),
+    "🚀 ~ partTwoResult": runPartTwo(),
+  });
+})();
